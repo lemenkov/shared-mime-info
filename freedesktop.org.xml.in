@@ -4476,6 +4476,8 @@ command to generate the output files.
     <_comment>VRML document</_comment>
     <generic-icon name="x-office-document"/>
     <sub-class-of type="text/plain"/>
+    <glob pattern="*.vrm"/>
+    <glob pattern="*.vrml"/>
     <glob pattern="*.wrl"/>
   </mime-type>
   <mime-type type="multipart/alternative">
