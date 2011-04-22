@@ -1451,6 +1451,7 @@ command to generate the output files.
       <match type="string" value="\037\235" offset="0"/>
     </magic>
     <glob pattern="*.Z"/>
+    <glob pattern="*.z"/>
   </mime-type>
   <mime-type type="application/x-compressed-tar">
     <_comment>Tar archive (gzip-compressed)</_comment>
