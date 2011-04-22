@@ -4483,6 +4483,8 @@ command to generate the output files.
   </mime-type>
   <mime-type type="model/vrml">
     <_comment>VRML document</_comment>
+    <acronym>VRML</acronym>
+    <expanded-acronym>Virtual Reality Modeling Language</expanded-acronym>
     <generic-icon name="x-office-document"/>
     <sub-class-of type="text/plain"/>
     <glob pattern="*.vrm"/>
