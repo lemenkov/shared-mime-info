@@ -4473,6 +4473,14 @@ command to generate the output files.
     <generic-icon name="text-x-generic"/>
     <glob pattern="RMAIL"/>
   </mime-type>
+  <mime-type type="model/mesh">
+    <_comment>MESH document</_comment>
+    <generic-icon name="x-office-document"/>
+    <sub-class-of type="text/plain"/>
+    <glob pattern="*.mesh"/>
+    <glob pattern="*.msh"/>
+    <glob pattern="*.silo"/>
+  </mime-type>
   <mime-type type="model/vrml">
     <_comment>VRML document</_comment>
     <generic-icon name="x-office-document"/>
