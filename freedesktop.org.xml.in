@@ -4473,6 +4473,15 @@ command to generate the output files.
     <generic-icon name="text-x-generic"/>
     <glob pattern="RMAIL"/>
   </mime-type>
+  <mime-type type="model/iges">
+    <_comment>IGES document</_comment>
+    <acronym>IGES</acronym>
+    <expanded-acronym>Initial Graphics Exchange Specification</expanded-acronym>
+    <generic-icon name="x-office-document"/>
+    <sub-class-of type="text/plain"/>
+    <glob pattern="*.igs"/>
+    <glob pattern="*.iges"/>
+  </mime-type>
   <mime-type type="model/mesh">
     <_comment>MESH document</_comment>
     <generic-icon name="x-office-document"/>
