@@ -352,6 +352,14 @@ command to generate the output files.
       <match type="string" value="&lt;?wpl" offset="0:256"/>
     </magic>
   </mime-type>
+  <mime-type type="application/vnd.koan">
+    <_comment>SSEYO Koan document</_comment>
+    <glob pattern="*.skd"/>
+    <glob pattern="*.skm"/>
+    <glob pattern="*.skp"/>
+    <glob pattern="*.skt"/>
+    <alias type="application/x-koan"/>
+  </mime-type>
   <mime-type type="application/x-sqlite2">
     <_comment>SQLite2 database</_comment>
     <magic>
