@@ -5515,6 +5515,11 @@ command to generate the output files.
     </magic>
     <glob pattern="*.movie"/>
   </mime-type>
+  <mime-type type="video/gl">
+    <_comment>Grasp video</_comment>
+    <glob pattern="*.gl"/>
+    <alias type="video/x-gl"/>
+  </mime-type>
   <mime-type type="application/vnd.emusic-emusic_package">
     <_comment>eMusic download package</_comment>
     <generic-icon name="package-x-generic"/>
