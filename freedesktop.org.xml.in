@@ -360,6 +360,15 @@ command to generate the output files.
     <glob pattern="*.skt"/>
     <alias type="application/x-koan"/>
   </mime-type>
+  <mime-type type="application/STEP">
+    <_comment>ISO-10303 STEP document</_comment>
+    <acronym>STEP</acronym>
+    <expanded-acronym>Standard for the Exchange of Product model data</expanded-acronym>
+    <glob pattern="*.step"/>
+    <glob pattern="*.stp"/>
+    <glob pattern="*.STEP"/>
+    <glob pattern="*.STP"/>
+  </mime-type>
   <mime-type type="application/x-sqlite2">
     <_comment>SQLite2 database</_comment>
     <magic>
