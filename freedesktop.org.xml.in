@@ -369,6 +369,13 @@ command to generate the output files.
     <glob pattern="*.STEP"/>
     <glob pattern="*.STP"/>
   </mime-type>
+  <mime-type type="application/i-deas">
+    <_comment>I-DEAS document</_comment>
+    <acronym>I-DEAS</acronym>
+    <expanded-acronym>Integrated Design and Engineering Analysis Software</expanded-acronym>
+    <glob pattern="*.unv"/>
+    <glob pattern="*.UNV"/>
+  </mime-type>
   <mime-type type="application/x-sqlite2">
     <_comment>SQLite2 database</_comment>
     <magic>
